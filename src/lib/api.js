@@ -1,5 +1,5 @@
 // const API_URL = import.meta.env.VITE_API_URL || '/api';
-const API_URL = import.meta.env.VITE_API_URL || 'https://fudicia-api.onrender.com/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://fudicia-backend.onrender.com/api';
 
 class APIClient {
   constructor() {
