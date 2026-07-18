@@ -1,0 +1,40 @@
+{
+  "name": "Fudicia Investissement",
+  "short_name": "Fudicia",
+  "description": "Fudicia est une plateforme spécialisée dans les services d'investissement en ligne sécurisés avec gestion de packs de revenus.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1629",
+  "theme_color": "#2dd4bf",
+  "orientation": "portrait-primary",
+  "categories": ["finance", "productivity"],
+  "icons": [
+    {
+      "src": "/static/finance/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/finance/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/finance/images/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/#/signup",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
